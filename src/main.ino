@@ -1,19 +1,10 @@
+// inspired by:
 // https://github.com/karolkalinski/esp32-snippets/tree/master/Mijia-LYWSD03MMC-Client
+
 #include <BLEDevice.h>
 #include <SimpleTimer.h>
 #include <WiFi.h>
-
 #include <PubSubClient.h>
-
-const char *ssid = "OixCanCasicaRouter";
-const char *password = "polclotagou10";
-
-const char *mqtt_server = "rpi.clota.com";
-const char *mqtt_user = "pi";
-const char *mqtt_pw = "domiot";
-
-uint8_t updatetime = 180;   // secs
-uint8_t wifi_watchdog = 60; // secs
 
 RTC_DATA_ATTR int bootCount = 0;
 RTC_DATA_ATTR int opt = 0;
@@ -34,7 +25,6 @@ enum Types
   battery,
   voltage
 };
-
 enum Status
 {
   on,
@@ -43,17 +33,8 @@ enum Status
 
 const String status[] = {"on", "off"};
 
-// const std::string MAC[] = {"A4:C1:38:89:F7:CA", "A4:C1:38:D3:A4:5D", "A4:C1:38:85:65:E4", "58:2D:34:51:B7:FB"};
-// const String name[] = {"Outdoors(1)", "Mobile(2)", "Downstairs(3)", "Alarm"};
-// const Model model[] = {LYWSD03MMC, LYWSD03MMC, LYWSD03MMC, CGD1};
-
-const String modelName[] = {"LYWSD03MMC", "CGD1"};
-
-const Model model[] = {LYWSD03MMC, LYWSD03MMC, LYWSD03MMC};
-const std::string MAC[] = {"A4:C1:38:89:F7:CA", "A4:C1:38:D3:A4:5D", "A4:C1:38:85:65:E4"};
-const String name[] = {"Outdoors", "Mobile", "Downstairs"};
-const String number[] = {"1", "2", "3"};
-
+#include <userconfig.h>
+// You should not change this
 const Types sensType[] = {temperature, humidity, battery, voltage};
 const String sensTypeTxt[] = {"Temperature", "Humidity", "Battery", "Voltage"};
 const String unitMesurement[] = {"°C", "%", "%", "v"};
