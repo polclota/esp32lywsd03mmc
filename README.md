@@ -22,4 +22,4 @@ Every time the device turns on or off a message is submitted to a status topic, 
 
 I suggest using http://mqtt-explorer.com/ to track all messages.
 
-Enjoy!" 
+Enjoy!
