@@ -1,0 +1,7 @@
+Advertised Device: Name: Qingping Alarm Clock 
+Advertised Device: Name: , Address: ac:9a:22:5f:4f:b2, manufacturer data: ac9a225f4fb2010001, serviceUUID: 0000fee9-0000-1000-8000-00805f9b34fb 
+Advertised Device: Name: Nuki_184D3E15, Address: 54:d2:72:4d:3e:15, manufacturer data: 4c00063101950914430f0a06000100030237c78ddb 
+Advertised Device: Name: Nuki_Opener_1CF5365A, Address: 54:d2:72:f5:36:5a, manufacturer data: 4c000215a92ae200550111e4916c0800200c9a661cf5365ac4
+Advertised Device: Name: LYWSD03MMC, Address: a4:c1:38:d3:a4:5d 
+Advertised Device: Name: LYWSD03MMC, Address: a4:c1:38:85:65:e4 
+Devices found: 6
