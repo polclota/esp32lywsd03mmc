@@ -1,4 +1,5 @@
 #include <myprivatedate.h> // might be deleted once your data is provided
+
 // next data must be subsituted by yours
 const char *ssid = WIFINAME;
 const char *password = PASSWORD;
