@@ -1,0 +1,23 @@
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\polcl\\.platformio\\penv\\Scripts;C:\\Users\\polcl\\.platformio\\penv;C:\\Program Files\\Espressif\\ESP-IDF Tools\\mconf-idf;C:\\Program Files\\Espressif\\ESP-IDF Tools\\tools\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\;C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\;C:\\Program Files (x86)\\Mitov\\Visuino;C:\\Program Files\\nodejs\\;C:\\Program Files\\CMake\\bin;D:\\ESP32\\esp-idf\\tools;C:\\Program Files\\Java\\jdk-12.0.1\\bin;;C:\\Program Files\\Zerynth\\ztc\\windows64;C:\\Users\\polcl\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\polcl\\AppData\\Local\\Programs\\Python\\Python37\\Scripts;C:\\Users\\polcl\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\polcl\\AppData\\Local\\Programs\\Python\\Python37;c:\\adb;C:\\Users\\polcl\\AppData\\Roaming\\npm;C:\\Program Files\\Espressif\\ESP-IDF Tools\\mconf-idf;C:\\Program Files\\Espressif\\ESP-IDF Tools\\tools\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\;C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\;C:\\Program Files (x86)\\Mitov\\Visuino;C:\\Program Files\\nodejs\\;C:\\Program Files\\CMake\\bin;D:\\ESP32\\esp-idf\\tools;C:\\Program Files\\Java\\jdk-12.0.1\\bin;;C:\\Program Files\\Zerynth\\ztc\\windows64;C:\\Users\\polcl\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\polcl\\AppData\\Local\\Programs\\Python\\Python37\\Scripts;C:\\Users\\polcl\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\polcl\\AppData\\Local\\Programs\\Python\\Python37;c:\\adb;C:\\Users\\polcl\\AppData\\Roaming\\npm",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "cSpell.ignoreWords": [
+        "addr",
+        "lywsd",
+        "mmc",
+        "pclient",
+        "q"
+    ],
+    "files.associations": {
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "typeinfo": "cpp"
+    }
+}
