@@ -30,4 +30,9 @@ Every time the device turns on or off a message is submitted to a status topic, 
 
 I suggest using http://mqtt-explorer.com/ to track all messages.
 
+Here you are a link to where I bought the sensors:
+https://www.banggood.com/Newest-Version-XIAOMI-Mijia-Bluetooth-Thermometer-2-Wireless-Smart-Electric-Digital-Hygrometer-Thermometer-1Pcs-Work-with-Mijia-APP-p-1595119.html?rmmds=myorder&cur_warehouse=CN
+
+In my latest tests I've been able to run for 5 days on a single (chinese) 18650 battery.
+
 Enjoy!
