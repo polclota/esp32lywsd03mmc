@@ -10,7 +10,7 @@ After each and every loop step the device goes into deep sleep for what ever the
 
 ## Platformio users
 
-It's developed using platformio. Two different esp32 boards are configured so if you use a diferent board you must make consequent changes in platformio.ini file.
+It's developed using platformio. Four different esp32 boards are configured so if you use a diferent board you must make consequent changes in platformio.ini file.
 
 About platformio.ini.
 Two very important considerations:
