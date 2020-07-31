@@ -162,6 +162,7 @@ String convertDateTime2ISO(time_t t)
 void setup_time()
 {
   timeClient.begin(); // Start the NTP UDP client_MQTT
+  delay(500);
   Serial.print("updated time: ");
   Serial.print(TimeStrShort(myRealTime(), false));
   Serial.print(", ");

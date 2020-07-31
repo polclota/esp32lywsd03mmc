@@ -15,8 +15,8 @@ const String modelName[] = {"LYWSD03MMC", "CGD1"};
 
 const Model model[] = {LYWSD03MMC, LYWSD03MMC, LYWSD03MMC};
 // add your MAC addresses 
-const std::string MAC[] = {"A4:C1:38:89:F7:CA", "A4:C1:38:D3:A4:5D", "A4:C1:38:85:65:E4"};
+const std::string MAC[] = {"A4:C1:38:D3:A4:5D", "A4:C1:38:89:F7:CA", "A4:C1:38:85:65:E4"};
 // give them a name
-const String name[] = {"Outdoors", "Mobile", "Downstairs"};
+const String name[] = {"Mobile", "Outdoors", "Downstairs"};
 // give them a number/id in case you need additional coding, I myself wrote this numbers to the back of the sensor
 const String number[] = {"1", "2", "3"};

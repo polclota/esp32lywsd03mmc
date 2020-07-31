@@ -187,20 +187,10 @@ void registerNotification(std::string serviceUUID_str, std::string charUUID_str)
   }
 }
 
-void setup()
+void wifi_setup()
 {
-  Serial.begin(115200);
-  Serial.println("Starting BLE client: " + devName());
-  ++bootCount;
-  Serial.println("Boot number: " + String(bootCount));
-  Serial.println("Loop option: " + String(opt));
-
-  esp_sleep_enable_timer_wakeup(updatetime * 1000000);
-
   Serial.print("Connecting to ");
-
   Serial.print(ssid);
-
   WiFi.begin(ssid, password);
 
   pinMode(BUILTIN_LED, OUTPUT);
@@ -218,10 +208,35 @@ void setup()
     Serial.print(".");
   }
 
-  Serial.println();
-  Serial.println("WiFi connected");
+#define warmup 3
+  int i = warmup;
+  Serial.print("\nWarming up for " + String(warmup) + "secs");
+  while (i > 0)
+  {
+    i--;
+    Serial.print(".");
+    delay(1000);
+  }
+  Serial.print(", done!\n");
+
+  // Serial.println(); // I read somewhere that it used to cause hungups after wifi init!
+  Serial.print("WiFi connected\n");
   Serial.print("IP address: ");
-  Serial.println(WiFi.localIP());
+  Serial.print(WiFi.localIP());
+  Serial.print("\n");
+}
+
+void setup()
+{
+  Serial.begin(115200);
+  Serial.println("Starting BLE client: " + devName());
+  ++bootCount;
+  Serial.println("Boot number: " + String(bootCount));
+  Serial.println("Loop option: " + String(opt));
+
+  esp_sleep_enable_timer_wakeup(updatetime * 1000000);
+
+  wifi_setup();
   client.setServer(mqtt_server, 1883);
   setup_time();
 }

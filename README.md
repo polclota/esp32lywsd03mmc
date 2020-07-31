@@ -35,4 +35,9 @@ https://www.banggood.com/Newest-Version-XIAOMI-Mijia-Bluetooth-Thermometer-2-Wir
 
 In my latest tests I've been able to run for 5 days on a single (chinese) 18650 battery.
 
+## IMPORTANT!
+
+Some USB cables as well as some usb power supplies do not provide enough power for BT and Wifi to work together so devices tent to reboot. 
+Should this occur loop count resets too so only first device is checked on and on. In some cases they even fail and reboot before first Wifi connection try.
+
 Enjoy!
